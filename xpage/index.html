@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="assets/favicon.ico" rel="shortcut icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Christmas tree</title>
+</head>
+
+<body>
+    <div class="start-screen">
+        <div class="start-screen__content">
+            <p class="start-screen__text">
+                Ёлок много не бывает!<br>Давай украсим еще одну в этом году.
+            </p>
+            <img src='assets/merry-christmas-molang.gif' width="220" height="220" alt="xmas gif">
+            <button class="start-screen__button">ВПЕРЁД</button>
+        </div>
+    </div>
+    <div class="content invis">
+        <div class="tree">
+            <img class="tree-img" src="assets/tree.png" alt="tree" usemap="#tree">
+            <map name="tree" class="droppable">
+            <area coords="186,3,145,65,108,128,87,198,75,261,47,376,26,439,10,472,1,508,8,552,83,573,183,581,281,562,352,551,355,519,346,464,311,320,281,189,267,126" shape="poly">
+            </area>            
+            <div class="cell star-droppable invis"></div>              
+           <div class="toy star invis"></div>      
+        </map>
+        </div>
+        <div class="shelf">
+            <div class="toy blue"></div>
+            <div class="toy green"></div>
+            <div class="toy pink"></div>
+            <div class="toy red"></div>
+            <div class="toy violet"></div>
+            <div class="toy yellow"></div>
+        </div>
+    </div>
+    <div class="finish-window">
+        <p class="finish-text">Ты можешь ещё поправить шарики на ёлке, а когда они будут висеть, как надо, установи на макушку звезду - и ёлка будет готова к празднику!</p>
+        <button class="finish-window__button">ОК</button>
+    </div>
+    <div class="final-window">
+        <div class="final-window__close">X</div>
+        <p class="final-window__text"><span>С наступающим<br>Новым годом!</span><br>Желаю тебе, чтоб в 2023 году у тебя была возможность находить маленькие радости, и с каким-нибудь новым хобби, и без него. Появится любимое занятие - пусть в нем всё получается. А если нет - чем хуже
+            удовольствие хоть от сериалов, хоть от поглаживания кота? Ты никому не обязана "достигаторствовать", не загоняйся. Ты сама по себе уже ценна, не забывай об этом.</p>
+        <div class="final-gif"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
