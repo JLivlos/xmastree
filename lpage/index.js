@@ -116,6 +116,7 @@ function finish() {
             cell.classList.remove('invis');
         }, 1000);
         isFinish = true;
+        window.scrollTo(pageYOffset, 0);
     } else {
         return;
     }
